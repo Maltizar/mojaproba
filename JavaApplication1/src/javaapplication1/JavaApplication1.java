@@ -16,6 +16,11 @@ public class JavaApplication1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Wynik: ="+Policz(2,3));
     }
     
+    public static int Policz (int a, int b)
+    {
+        return a+b;
+    }
 }
